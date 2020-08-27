@@ -1,0 +1,25 @@
+/* Add application styles & imports to this file! */
+@import '~ag-grid/dist/styles/ag-grid.css';
+@import '~ag-grid/dist/styles/ag-theme-balham.css';
+
+body, html {
+  height: 100%;
+  margin:2px;
+}
+
+my-app app-griglia {
+  height: 100%;
+}
+
+my-app .container {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+
+my-app .container .ag-grid-angular {
+  flex-basis: 100%;
+  display: flex;
+  flex-grow: 1;
+}
